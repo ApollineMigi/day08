@@ -1,7 +1,8 @@
 <?php
-// $string = $name = "";
-$name = $_GET["name"];
-if($name){
+$name = NULL;
+if (isset($name) != NULL)
+    $name = $_GET["name"];
+if($name) {
     echo "Hello" .$name;
 }
 else{
