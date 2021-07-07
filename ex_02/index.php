@@ -6,6 +6,6 @@ if($name) {
     echo "Hello" .$name;
 }
 else{
-    echo "hello platypus";
+    echo "Hello platypus";
 }
 ?>
