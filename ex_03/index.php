@@ -1,6 +1,6 @@
 <?php
 session_start ();
-if(isset ($SESSION["name"]));
+if(!isset ($SESSION["name"]));
     $_SESSION["name"] = "platypus";
 if (isset($_GET['name'])){
     $name = $_GET['name'];
